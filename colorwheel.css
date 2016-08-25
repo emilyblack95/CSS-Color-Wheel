@@ -1,0 +1,40 @@
+body {
+		animation-name: colorchange;
+		animation-duration:30s;
+		animation-direction:alternate;
+		animation-iteration-count:infinite;
+		-webkit-animation-name: colorchange;
+		-webkit-animation-duration:30s;
+		-webkit-animation-direction:alternate;
+		-webkit-animation-iteration-count:infinite;
+	}
+	
+	@keyframes colorchange
+    {
+	0% {background-color:#000000;}
+	10% {background-color:#8beadd;}
+	20% {background-color:#3b4cf1;}
+	30% {background-color:#a56bf5;}
+	40% {background-color:#e16bf5;}
+	50% {background-color:#f56baa;}
+	60% {background-color:#fa6172;}
+	70% {background-color:#fa9e61;}
+	80% {background-color:#d2d963;}
+	90% {background-color:#8fdb66;}
+	100% {background-color:#9eebc0;}
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+	0% {background-color:#000000;}
+	10% {background-color:#8beadd;}
+	20% {background-color:#3b4cf1;}
+	30% {background-color:#a56bf5;}
+	40% {background-color:#e16bf5;}
+	50% {background-color:#f56baa;}
+	60% {background-color:#fa6172;}
+	70% {background-color:#fa9e61;}
+	80% {background-color:#d2d963;}
+	90% {background-color:#8fdb66;}
+	100% {background-color:#9eebc0;}
+    }
